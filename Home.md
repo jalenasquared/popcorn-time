@@ -8,4 +8,4 @@ An Apple TV 4 application to torrent movies and tv shows for streaming. A simple
 
 [FAQ](https://github.com/PopcornTimeTV/PopcornTimeTV/wiki/FAQ)
 
-[Progress](https://github.com/PopcornTimeTV/PopcornTimeTV/wiki/Progrehttps://github.com/PopcornTimeTV/PopcornTimeTV/wiki/Progres/PopcornTimeTV/wiki/Progresss)
+[Progress](https://github.com/PopcornTimeTV/PopcornTimeTV/wiki/Progress)
