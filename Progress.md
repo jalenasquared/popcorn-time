@@ -1,4 +1,4 @@
-Here you can see the list of features we'd like to implement into the current application.
+Here you can see the list of features we'd like to implement into the current application alongside some of the bugs we'd like to remove.
 
 ## Bugs
 
