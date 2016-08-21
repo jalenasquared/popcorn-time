@@ -1,15 +1,16 @@
 Here you can see the list of features we'd like to implement into the current application.
 
-- [x] VLC Support (Currently being worked on)
-- [x] Support Advancing streamed videos (PopcornTorrent)
-- [x] Resuming playback if you continue watching a movie you started (PopcornTorrent support would be needed)
-- [x] A new Welcome Screen layout
-- [x] Tv Theme songs
-- [ ] Movie Theme songs
-- [x] Subtitle Support
-- [x] Search and stream torrents from kat.ph
-- [x] Loading the next page of data from the API to display more content
-- [x] Genre Tab, assorting content by category.
+## Bugs
+
+- [ ] Fetching Large Movie Posters, app currently only fetches Small & Medium Movie Posters
+- [ ] Favourites Button on Details view, resource should change from `button-rate` to `button-rated` when an item is added to favourites
+- [ ] Pagination on TV Shows performance could be improved
+- [ ] Parallax Artwork from [LSRDB](https://lsrdb.com/) implemented but isn't displaying correctly correctly
+
+
+## Features
+
+- [ ] Default language for subtitles in settings
+- [ ] Movie Theme songs using [iTunes Song Previews](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/)
 - [ ] VPN support to help stay anonymous
 - [ ] Watchlist items on Topshelf
-- [ ] Setting default language for subtitles in settings
