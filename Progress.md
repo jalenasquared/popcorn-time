@@ -3,7 +3,6 @@ Here you can see the list of features we'd like to implement into the current ap
 ## Bugs
 
 - [ ] Fetching Large Movie Posters, app currently only fetches Small & Medium Movie Posters
-- [ ] Favourites Button on Details view, resource should change from `button-rate` to `button-rated` when an item is added to favourites
 - [ ] Pagination on TV Shows performance could be improved
 - [ ] Parallax Artwork from [LSRDB](https://lsrdb.com/) implemented but isn't displaying correctly correctly
 
