@@ -9,7 +9,6 @@ Here you can see the list of features we'd like to implement into the current ap
 
 ## Features
 
-- [ ] Default language for subtitles in settings
 - [ ] Movie Theme songs using [iTunes Song Previews](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/)
 - [ ] VPN support to help stay anonymous
 - [ ] Watchlist items on Topshelf
