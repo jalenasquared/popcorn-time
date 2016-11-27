@@ -2,11 +2,11 @@
 
 * A Mac, preferably running the latest version of OS X (currently 10.11.x El Capitan)
 * Xcode 8.0+
-* tvOS 9.2+
+* tvOS/iOS 9.0+
 * Free Apple Developer Account
 * USB-C cable if building for Apple TV
 
-### Downloading the project
+## Downloading the project
 
 Clone the latest version of the repo using Terminal. You can expect bugs this way as the latest version of the repo is always seen as a work in progress.
 
@@ -15,7 +15,7 @@ cd ~/Desktop
 git clone https://github.com/PopcornTimeTV/PopcornTimeTV.git
 ```
 
-### Installing Dependencies
+## Installing Dependencies
 
 
 You're going to need to install Cocapods, run the following command in Terminal.
@@ -36,24 +36,47 @@ Follow the instructions to get setup and running.
 
 Note: You can always run this script to also update your current copy.
 
-### Opening the project
+## Opening the project
 
 ![Opening Project](https://camo.githubusercontent.com/96d202cca8e912d77333b1fd2c21fbb440fd49e6/687474703a2f2f692e6375626575706c6f61642e636f6d2f384b6a5734672e706e67)
 
 Open the project using **PopcornTime.xcworkspace**
 
-### Changing the Bundle Identifier
 
-![Bundle ID](https://camo.githubusercontent.com/92a24ac63146294e5c1e554022baee099f6fb6c6/687474703a2f2f692e6375626575706c6f61642e636f6d2f7247374830452e706e67)
+## Changing the Bundle Identifier
 
-Change the default bundle identifier to **com.NAMEHERE.popcorntime**
+Click on the Project icon and select a target. If you want to install the iOS version select `PopcornTimeiOS`, if you want to install tvOS version, select `PopcornTimetvOS`.
 
-You will need to use the same Bundle Identifier for the TopShelf extension below
+![Target](https://i.imgur.com/9DX63O0.png)
 
-![Select](https://camo.githubusercontent.com/f7a772b73993aad4ee9c4fce3da0e20b73c269d4/687474703a2f2f692e6375626575706c6f61642e636f6d2f65505434796f2e706e67)
+Change the default bundle identifier to **com.NAMEHERE.popcorntime.PLATFORMHERE**
 
-![ID](https://camo.githubusercontent.com/9752b4ab89d2de329c8fabea26d41165c5855f9e/687474703a2f2f692e6375626575706c6f61642e636f6d2f4676565574572e706e67)
+Change NAMEHERE to your name and PLATFORMHERE to the platform you are buidling for (iOS/tvOS)
 
-Change the default bundle identifier to **com.NAMEHERE.popcorntime.TopShelf**
-![Top shelf](https://camo.githubusercontent.com/ab25ea25bd5810ae498f99816f4ed9490065d577/687474703a2f2f692e6375626575706c6f61642e636f6d2f417a433354322e706e67)
-Clicking the **Play** button or by pressing **CMD + R** will compile the project
+## iOS:
+
+Select the iOS scheme in the dropdown menu in Xcode. 
+
+![Select Scheme](https://i.imgur.com/108RPdu.png)
+
+Clicking the **Play** button or by pressing **CMD + R** will compile the project.
+
+If you have any issues with the installation process, do not hesitate to [create an issue](https://github.com/PopcornTimeTV/PopcornTimeTV/issues/new)
+
+## tvOS:
+
+To compile for tvOS, you will need to change the `TopShelf` target's Bundle Identifier also.
+
+Change the default bundle identifier to **com.NAMEHERE.popcorntime.PLATFORMHERE.TopShelf**
+
+It is **imperitive** that you do not deviate from the bundle identifier examples. If the `PopcornTimetvOS` Bundle Identifier does not match up with the `TopShelf` Bundle Identifier, the project will not compile.
+
+
+
+Select the tvOS scheme in the dropdown menu in Xcode. 
+
+![Select Scheme](https://i.imgur.com/2xBDM2T.png)
+
+Clicking the **Play** button or by pressing **CMD + R** will compile the project.
+
+If you have any issues with the installation process, do not hesitate to [create an issue](https://github.com/PopcornTimeTV/PopcornTimeTV/issues/new)
