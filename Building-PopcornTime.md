@@ -1,9 +1,9 @@
 ### Requirements
 
 * A Mac, preferably running the latest version of OS X (currently 10.11.x El Capitan)
-* Xcode 8.0+
+* [Xcode 8.0+](https://itunes.apple.com/app/xcode/id497799835)
 * tvOS/iOS 9.0+
-* Free Apple Developer Account
+* [Free Apple Developer Account](https://developer.apple.com/enroll/)
 * USB-C cable if building for Apple TV
 
 ## Downloading the project
