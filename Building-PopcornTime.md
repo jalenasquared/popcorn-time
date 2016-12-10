@@ -57,10 +57,14 @@ If you have any issues with the installation process, do not hesitate to [create
 
 To compile for tvOS, you will need to change the `TopShelf` target's Bundle Identifier also.
 
-Change the default bundle identifier to **com.NAMEHERE.popcorntime.PLATFORMHERE.TopShelf**
+Change the default bundle identifier to **com.NAMEHERE.popcorntime.tvos.TopShelf**
 
 It is **imperitive** that you do not deviate from the bundle identifier examples. If the `PopcornTimetvOS` Bundle Identifier does not match up with the `TopShelf` Bundle Identifier, the project will not compile.
 
+For example: 
+
+If your tvOS Bundle Identifier is: **com.sample.popcorntime.tvos**, your TopShelf Bundle Identifier **MUST** be 
+**com.sample.popcorntime.tvos.TopShelf**.
 
 
 Select the tvOS scheme in the dropdown menu in Xcode. 
