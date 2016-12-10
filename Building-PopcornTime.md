@@ -20,7 +20,7 @@ git clone https://github.com/PopcornTimeTV/PopcornTimeTV.git
 
 You're going to need to install Cocapods, run the following command in Terminal.
 ```
-gem install cocoapods
+sudo gem install cocoapods
 ```
 After Cocoapods successfully installs continue to run the following commands
 ```
