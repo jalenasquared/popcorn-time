@@ -24,7 +24,7 @@ swift install.swift
 ```
 Follow the instructions to get setup and running.
 
-Note: You can always re-run the install script to update to the latest available version as well.
+Note: You can always re-run the install script to update to the latest available version.
 
 ## Opening the project
 
