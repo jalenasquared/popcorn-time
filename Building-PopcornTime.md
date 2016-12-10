@@ -17,24 +17,14 @@ git clone https://github.com/PopcornTimeTV/PopcornTimeTV.git
 
 ## Installing Dependencies
 
-
-You're going to need to install Cocapods, run the following command in Terminal.
-```
-sudo gem install cocoapods
-```
-After Cocoapods successfully installs continue to run the following commands
-```
-cd ~/Desktop/PopcornTimeTV
-pod install
-```
-Alternatively, you can use the Swift Install script with the following commands
+Run the Swift Install script with the following commands
 ```
 cd ~/Desktop/PopcornTimeTV
 swift install.swift
 ```
 Follow the instructions to get setup and running.
 
-Note: You can always run this script to also update your current copy.
+Note: You can always re-run the install script to update to the latest available version as well.
 
 ## Opening the project
 
