@@ -9,10 +9,3 @@ Instructions available [here](https://github.com/PopcornTimeTV/PopcornTimeTV/wik
 4. Choose the language your preferred subtitle language
 
 Playback will display the correct subtitle language once the video has started streaming.
-
-### Want to enable Dark/Light mode?
-
-1. Open the TV settings application
-2. Select General
-3. Appearance
-4. Click appearance to switch between light and dark mode.  
