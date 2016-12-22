@@ -35,13 +35,21 @@ Open the project using **PopcornTime.xcworkspace**
 
 ## Changing the Bundle Identifier
 
-Click on the Project icon and select a target. If you want to install the iOS version select `PopcornTimeiOS`, if you want to install tvOS version, select `PopcornTimetvOS`.
+Click on the project icon and select a target. If you want to install the iOS version select `PopcornTimeiOS`, if you want to install tvOS version, select `PopcornTimetvOS`.
 
 ![Target](https://i.imgur.com/9DX63O0.png)
 
 Change the default bundle identifier to **com.NAMEHERE.popcorntime.PLATFORMHERE**
 
 Change NAMEHERE to your name and PLATFORMHERE to the platform you are buidling for (iOS/tvOS)
+
+
+## Signing in with Development Team:
+
+While in the project settings, scroll down to the "Signing" section and select the team menu. If you already have a developer account set-up, select it and continue with the rest of the Build Instructions. If you don't, select "Add an Account..." and follow the on-screen instructions.
+
+![Code signing](https://i.imgur.com/jNHUMAg.png)
+
 
 ## iOS:
 
