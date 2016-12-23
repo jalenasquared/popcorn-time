@@ -1,11 +1,3 @@
-### No matching provisioning profiles found
-Instructions available [here](https://github.com/PopcornTimeTV/PopcornTimeTV/wiki/Building-PopcornTime#changing-the-bundle-identifier)
+### PopcornTime/TopShelf has conflicting provisioning settings. PopcornTime/TopShelf is automatically provisioned, but provisioning profile WildCard has been manually specified. Set the provisioning profile value to "Automatic" in the build settings editor, or switch to manual provisioning in the target editor. Code signing is required for product type 'Application' in SDK 'iOS 10.0'
 
-### Wanting to set a default subtitle language?
-
-1. Open the TV settings application
-2. Select Audio and Video
-3. Subtitle Language
-4. Choose the language your preferred subtitle language
-
-Playback will display the correct subtitle language once the video has started streaming.
+Follow this helpful stack overflow guide: http://stackoverflow.com/questions/37806538/code-signing-is-required-for-product-type-application-in-sdk-ios-10-0-stic
