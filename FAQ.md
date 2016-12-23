@@ -1,3 +1,5 @@
-### PopcornTime/TopShelf has conflicting provisioning settings. PopcornTime/TopShelf is automatically provisioned, but provisioning profile WildCard has been manually specified. Set the provisioning profile value to "Automatic" in the build settings editor, or switch to manual provisioning in the target editor. Code signing is required for product type 'Application' in SDK 'iOS 10.0'
+### PopcornTime/TopShelf has conflicting provisioning settings.
+
+`PopcornTime/TopShelf is automatically provisioned, but provisioning profile WildCard has been manually specified. Set the provisioning profile value to "Automatic" in the build settings editor, or switch to manual provisioning in the target editor. Code signing is required for product type 'Application' in SDK 'iOS 10.0'`
 
 Follow this helpful stack overflow guide: http://stackoverflow.com/questions/37806538/code-signing-is-required-for-product-type-application-in-sdk-ios-10-0-stic
